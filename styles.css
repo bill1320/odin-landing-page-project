@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 100px; 
+}
+
+.header-nav {
+  display: flex;
+  gap: 10px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.header-links {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3882f6;
+}
