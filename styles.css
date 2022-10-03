@@ -43,23 +43,60 @@ a:hover {
 .hero-div {
   display: flex;
   border: 1px solid red;
-  height: 500px;
+  height: 400px;
   justify-content: space-between;
+  background-color: #1f2937;
 }
 
 .hero-left {
+  border: 1px solid red;
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.hero-left h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-left p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0;
+}
+
+.hero-left button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 24px;
+  width: 100px;
+  border-radius: 12px;
+}
+
+.hero-left button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 .hero-right {
   width: 400px;
-  
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
 }
 
-.hero-img {
-  display: flex;
-  height: 200px;
-  
+.hero-img img {
+  width: 400px;
+  height: auto;  
 }
 
 footer {
