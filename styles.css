@@ -4,7 +4,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -42,14 +44,12 @@ a:hover {
 
 .hero-div {
   display: flex;
-  border: 1px solid red;
-  height: 400px;
+  height: 250px;
   justify-content: space-between;
   background-color: #1f2937;
 }
 
 .hero-left {
-  border: 1px solid red;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -59,13 +59,13 @@ a:hover {
 
 .hero-left h2 {
   color: #f9faf8;
-  font-size: 48px;
+  font-size: 32px;
   margin: 0;
 }
 
 .hero-left p {
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -87,7 +87,6 @@ a:hover {
 
 .hero-right {
   width: 400px;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,8 +95,63 @@ a:hover {
 
 .hero-img img {
   width: 400px;
-  height: auto;  
+  height: 200px;
 }
+
+.info-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+}
+
+.info-header h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.info-imgs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info-imgs img {
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 14px;
+}
+
+.info-img {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.info-img p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.quote-sec {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  height: 105px;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 20px 50px 0px 50px;
+}
+
+.quote-by {
+  font-size: 22px;
+  text-align: end;
+  margin: 0px 100px 0 0;
+}
+
 
 footer {
   background-color: #1f2937;
