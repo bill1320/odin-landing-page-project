@@ -138,6 +138,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 105px;
+  margin-top: 20px;
 }
 
 .quote {
@@ -152,6 +153,61 @@ a:hover {
   margin: 0px 100px 0 0;
 }
 
+.banner-sec {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 6px;
+}
+
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+.banner-header {
+  font-weight: 400;
+  margin: 0;
+}
+
+.banner-text {
+  font-weight: 100;
+  margin: 0;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px 0 50px;
+}
+
+.banner-button button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 24px;
+  width: 100px;
+  border-radius: 12px;
+}
+
+.banner-button button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
 
 footer {
   background-color: #1f2937;
